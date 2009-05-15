@@ -1,10 +1,4 @@
 
-import nl.b3p.geotools.filter.FilterFactoryImpl2;
-import java.io.ByteArrayOutputStream;
-import org.geotools.factory.GeoTools;
-import org.geotools.filter.v1_0.OGCConfiguration;
-import org.opengis.filter.Filter;
-
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
@@ -16,7 +10,7 @@ import org.opengis.filter.Filter;
  */
 public class Main {
     public static final void main(String[] args) throws Exception {
-        FilterFactoryImpl2 ff2 = new FilterFactoryImpl2(GeoTools.getDefaultHints());
+        /*FilterFactoryImpl2 ff2 = new FilterFactoryImpl2(GeoTools.getDefaultHints());
         org.geotools.xml.Configuration configuration2= new OGCConfiguration();
         org.geotools.xml.Encoder encoder2 = new org.geotools.xml.Encoder( configuration2 );
         ByteArrayOutputStream b = new ByteArrayOutputStream();
@@ -24,6 +18,6 @@ public class Main {
 
         encoder2.encode(filterLike,org.geotools.filter.v1_1.OGC.Filter,b);
         String s2= b.toString();
-        System.out.print("Like filter: /n"+s2);
+        System.out.print("Like filter: /n"+s2);*/
     }
 }
